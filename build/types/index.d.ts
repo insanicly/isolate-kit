@@ -1,4 +1,7 @@
+import { Context, Isolate } from "isolated-vm";
 export declare class IsolateKit {
+    isolate: Isolate;
+    isolateContext: Context;
     constructor();
-    run: () => any;
+    run: (code: string) => any;
 }
