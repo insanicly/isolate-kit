@@ -1,1 +1,1 @@
-isolate kit
+isolate kit demo
