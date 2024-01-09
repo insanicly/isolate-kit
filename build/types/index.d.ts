@@ -1,6 +1,4 @@
-import "./index.css";
-declare class MyLibrary {
+export declare class IsolateKit {
     constructor();
-    myMethod: () => boolean;
+    run: () => any;
 }
-export default MyLibrary;

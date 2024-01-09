@@ -33,6 +33,7 @@ module.exports = {
     library: "isolate-kit",
     libraryTarget: "umd",
     clean: true,
+    globalObject: "this",
   },
   optimization: {
     minimize: true,
@@ -59,12 +60,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: "css/index.css",
-    }),
-    new webpack.BannerPlugin(banner),
-  ],
+  plugins: [],
   resolve: {
     extensions: [".ts", ".js", ".json"],
   },

@@ -1,14 +1,10 @@
-import "./index.css";
-
-class MyLibrary {
+export class IsolateKit {
   constructor() {
-    console.log("Library constructor loaded");
+    console.log("IsolateKit constructor loaded");
   }
 
-  myMethod = (): boolean => {
-    console.log("Library method fired");
+  run = (): any => {
+    console.log("IsolateKit method fired");
     return true;
   };
 }
-
-export default MyLibrary;
