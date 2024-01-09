@@ -1,7 +1,7 @@
 {
-  "name": "@hodgef/ts-library-boilerplate-basic",
-  "version": "1.1.266",
-  "description": "Typescript Minimal Starter Kit for building libraries",
+  "name": "@insanicly/isolate-kit",
+  "version": "0.0.1",
+  "description": "Wrapper around isolated vm",
   "main": "build/index.js",
   "types": "build/types/index.d.ts",
   "scripts": {
@@ -17,15 +17,15 @@
     "type": "git",
     "url": "https://github.com/hodgef/ts-library-boilerplate-basic"
   },
-  "author": "Francisco Hodge <hello@franciscohodge.com> (https://github.com/hodgef)",
+  "author": "Ismail Alper Saglam alprsglm@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hodgef/ts-library-boilerplate-basic/issues"
+    "url": "https://github.com/insanicly/isolate-kit/issues"
   },
-  "homepage": "https://github.com/hodgef/ts-library-boilerplate-basic",
+  "homepage": "https://github.com/insanicly/isolate-kit",
   "keywords": [
     "library",
-    "starter",
+    "isolated-vm",
     "es6"
   ],
   "devDependencies": {
