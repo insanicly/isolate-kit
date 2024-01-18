@@ -26,10 +26,14 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.node$/,
+        loader: "node-loader",
+      },
     ],
   },
   plugins: [],
   resolve: {
-    extensions: [".ts", ".js", ".json"],
+    extensions: [".ts", ".js", ".json", ".node"],
   },
 };
