@@ -74,5 +74,8 @@
   },
   "peerDependencies": {
     "isolated-vm": "^4.6.0"
+  },
+  "browser": {
+    "isolated-vm": false
   }
 }
